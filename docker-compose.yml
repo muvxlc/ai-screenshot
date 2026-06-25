@@ -41,7 +41,7 @@ services:
     container_name: screenshot-ai-frontend
     restart: always
     ports:
-      - "3000:3000"
+      - "3008:3000"
     environment:
       - NEXT_PUBLIC_API_URL=http://backend:5000
     depends_on:
