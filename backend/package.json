@@ -9,6 +9,9 @@
   "peerDependencies": {
     "typescript": "^5"
   },
+    "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@clerk/clerk-sdk-node": "^5.1.6",
     "@google/genai": "^1.7.0",
